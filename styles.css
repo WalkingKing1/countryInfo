@@ -1,0 +1,60 @@
+body {
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 0.8em;
+}
+
+#container {
+  max-width: 600px;
+}
+.change-location label {
+  font-size: 12px;
+  padding-bottom: 10px;
+}
+#icon {
+  position: relative;
+  top: -50px;
+  border-radius: 50%;
+  width: 100px;
+  margin-bottom: -50px;
+}
+
+.details {
+  padding-left: 50px;
+}
+
+#container > div > div.text-muted.text-uppercase.text-start.details > h4 {
+  padding: 20px 50px 0 0;
+}
+
+#container
+  > div
+  > div.text-muted.text-uppercase.text-start.details
+  > div.my-3.text-center {
+  padding-right: 45px;
+}
+
+#container
+  > div
+  > div.text-muted.text-uppercase.text-start.details
+  > div.display-4.my-4.text-center {
+  padding-right: 40px;
+  padding-bottom: 30px;
+}
+
+.flag {
+  text-align: center;
+  position: absolute;
+  top: 290px;
+  left: 10px;
+  border: 1px solid black;
+  border-radius: 50% 0;
+}
+.country-map {
+  text-align: center;
+  position: absolute;
+  top: 315px;
+  right: 10px;
+  border: 1px solid black;
+  border-radius: 0 50%;
+}
